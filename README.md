@@ -32,3 +32,9 @@ docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}
 ```
 
 https://stackoverflow.com/questions/28212380/why-docker-container-exits-immediately
+
+https://docs.docker.com/reference/compose-file/build/
+
+```
+docker compose up
+```
