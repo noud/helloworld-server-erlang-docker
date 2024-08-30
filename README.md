@@ -36,5 +36,9 @@ https://stackoverflow.com/questions/28212380/why-docker-container-exits-immediat
 https://docs.docker.com/reference/compose-file/build/
 
 ```
-docker compose up
+docker-compose up
+```
+You can browse the server at location
+```
+http://<CONTAINER IP>:8081/erl/helloworld:service
 ```
